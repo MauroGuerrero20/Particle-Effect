@@ -64,7 +64,6 @@ bool Screen::processEvents() {
 
 void Screen::boxBlur() {
 
-  // Swap buffers, so pixel info is in m_buffer2 and we are drawing to m_buffer1
   Uint32 *temp = m_buffer1;
   m_buffer1 = m_buffer2;
   m_buffer2 = temp;
@@ -144,8 +143,6 @@ void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue) {
   color += green;
   color <<= 8;
   color += blue;
-
-  // cout << setfill('0') << setw(8) << hex << color << endl;
 
   m_buffer1[(y * SCREEN_WIDTH) + x] = color;
 }

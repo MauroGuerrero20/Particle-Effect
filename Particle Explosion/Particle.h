@@ -6,10 +6,6 @@ struct Particle {
   double m_x;
   double m_y;
 
-  // Cartesian Coordinates System
-  // double m_xspeed;
-  // double m_yspeed;
-
 private:
   double m_speed;
   double m_direction;
