@@ -7,7 +7,7 @@ Link to SDL 2.0 libraries: https://www.libsdl.org/download-2.0.php
 
 ![particle_effect](https://user-images.githubusercontent.com/53728084/83910428-c04c2400-a727-11ea-9727-dc7991862af2.png)
 
-![Particle Effect Demo Reduced](https://user-images.githubusercontent.com/53728084/87866361-11ae1c80-c93e-11ea-9210-795c9d7ac26c.gif)
+![particle_effect_demo](https://user-images.githubusercontent.com/53728084/87866415-e546d000-c93e-11ea-93e3-b41a559ba573.gif)
 
 ## Visual Studio IDE Configuration Setup
 
